@@ -52,7 +52,7 @@ export default {
       if (this.textValue.length > 0) {
         if (this.textValue[this.textValue.length - 1].charCodeAt() > 127) {
           this.errorMess = true;
-		  this.barcode2Value = 'a';
+          this.barcode2Value = 'a';
         } else {
           this.errorMess = false;
           let newBarVal = 0;
